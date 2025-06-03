@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The goal of this project was to integrate scRNA-seq datasets from various Neural Stem Cell (NSCs) studies in order to investigate how the experimental isolation method of choice impacts the isolated NSC subpopulations. NSCs experiments are usually performed in mouse lines that have been uniquely labeled with gene promoters. Under the valid assumption that NSCs are considerably heterogeneous, the gene promoter choice could affect the isolated NSC subpopulations.
+The goal of this project was to integrate scRNA-seq datasets from various Neural Stem Cell (NSC) studies in order to investigate how the experimental isolation method of choice impacts the isolated NSC subpopulations. NSC experiments are usually performed in mouse lines that have been uniquely labeled with gene promoters. Under the valid assumption that NSCs are considerably heterogeneous, the gene promoter choice could affect the isolated NSC subpopulations.
 
 
 ## Reference Materials
@@ -31,6 +31,8 @@ The publications that can be found in this repository and were used for the inte
   - Identification of the different cell subpopulations based on gene expression variability and known biological markers from published literature.
   - Dimensionality reduction using PCA and UMAP.
   - Gene expression visualizations of the identified cell subpopulations (Violin plots, Volcano plots).
+- **Trajectory Analysis**: Utilized the `Monocle` package in R to perform trajectory analysis:
+  - Incorporated the concept of pseudotime that allowed to visually follow the different activation trajectories of NSCs.
 
 
 ## Script Details
